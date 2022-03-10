@@ -39,7 +39,7 @@ public class UserDAO {
     }
     
    public boolean checkUserExists(String email) throws SQLException, ClassNotFoundException {    	
-    	return true;
+    	return false;
     }
     
    public User saveUser(String email, String password, int age, String name) {
